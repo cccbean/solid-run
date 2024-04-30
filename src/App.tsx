@@ -35,7 +35,7 @@ export function App() {
   //
 
   createEffect(() => {
-    localStorage.setItem("sessionNumber", sessionNumber());
+    localStorage.setItem("sessionNumber", sessionNumber().toString());
   });
 
   return (
