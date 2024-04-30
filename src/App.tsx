@@ -22,7 +22,7 @@ export function App() {
   const [sessionNumber, setSessionNumber] = createSignal(initialSession);
 
   function increaseSessionNumber() {
-    if (sessionNumber() < 28) {
+    if (sessionNumber() < 27) {
       setSessionNumber((prev) => prev + 1);
     }
   };
