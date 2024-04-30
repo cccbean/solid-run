@@ -34,10 +34,9 @@ export function App() {
   };
   //
 
-  // TODO: uncomment this for production
-  // createEffect(() => {
-  //   localStorage.setItem("sessionNumber", sessionNumber());
-  // });
+  createEffect(() => {
+    localStorage.setItem("sessionNumber", sessionNumber());
+  });
 
   return (
     <main class="mocha bg-base text-text text-2xl h-screen flex flex-col">
